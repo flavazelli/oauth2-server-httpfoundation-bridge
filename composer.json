@@ -12,9 +12,13 @@
         }
     ],
     "homepage": "http://github.com/bshaffer/oauth2-server-httpfoundation-bridge",
+    "repositories": [{
+        "type": "vcs",
+        "url": "http://github.com/flavazelli/oauth2-server-php"
+    }],
     "require":{
         "php":">=7.2.0",
-        "bshaffer/oauth2-server-php": ">=0.9",
+        "bshaffer/oauth2-server-php": "dev-bshaffer-patch-routing-7.0",
         "symfony/http-foundation": ">=5.0"
     },
     "autoload": {
